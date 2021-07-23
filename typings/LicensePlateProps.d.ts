@@ -4,14 +4,15 @@
  * @author Mendix UI Content Team
  */
 import { CSSProperties } from "react";
+import { DynamicValue } from "mendix";
 
 export interface LicensePlateContainerProps {
     name: string;
     class: string;
     style?: CSSProperties;
     tabIndex?: number;
-    license: string;
-    country: string;
+    license: DynamicValue<string>;
+    country: DynamicValue<string>;
     height: number;
 }
 

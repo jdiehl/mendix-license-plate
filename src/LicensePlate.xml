@@ -8,13 +8,15 @@
     <icon/>
     <properties>
         <propertyGroup caption="General">
-            <property key="license" type="string" required="true">
+            <property key="license" type="expression" required="true">
                 <caption>License</caption>
-                <description>The text on the license plate</description>
+                <description />
+                <returnType type="String" />
             </property>
-            <property key="country" type="string" required="true">
+            <property key="country" type="expression" required="true">
                 <caption>Country Code</caption>
-                <description>The country code of the license plate</description>
+                <description />
+                <returnType type="String" />
             </property>
             <property key="height" type="integer" defaultValue="150">
                 <caption>Height</caption>

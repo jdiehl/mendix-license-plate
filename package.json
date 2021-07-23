@@ -3,7 +3,6 @@
   "widgetName": "LicensePlate",
   "version": "1.0.0",
   "description": "Render license plate",
-  "copyright": "2020 Mendix Technology BV",
   "author": "Jonathan Diehl",
   "engines": {
     "node": ">=12"
@@ -31,6 +30,7 @@
     "@types/react-dom": "~17.0.1"
   },
   "dependencies": {
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "react-license-plate": "^1.0.0"
   }
 }
